@@ -14,5 +14,6 @@ let passportMarried2 = {
         country: passportMarried.address.country,
         city: passportMarried.address.city}
 };
+passportMarried2.married = true;
 console.log(passportMarried);
 console.log(passportMarried2);
